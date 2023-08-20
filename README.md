@@ -1,37 +1,35 @@
-#  Projeto Técnico.
+# COVID-19 brazil public expenses to PDF.
 
-### Pré-requisitos
+This is a technical project for a interview. The idea is to get all the public expenses from the government API and list them as a pdf file.
 
+### Prerequisites
 
 ```
 Node.js
 ```
 
-### Instalação
+### Installing
 
-Clonar o projeto e instalar as dependências
+After cloning the project, install the dependencies
 
 ```
- git clone <https://github.com/brunoleitem/betha-projeto>
-
  npm install
-
 ```
 
-Criar um arquivo .env com a [chave de acesso](http://www.portaldatransparencia.gov.br/api-de-dados/cadastrar-email) api.
+Create a .env file with the [api access key](http://www.portaldatransparencia.gov.br/api-de-dados/cadastrar-email).
 
 ```
-SECRET_KEY= 
+SECRET_KEY=
 ```
 
-Rodar o projeto
+Run the project
+
 ```
 npm run app
 ```
 
-## Dependências
+## Used dependencies
+
     axios
     html-pdf
     dotenv
-
-
